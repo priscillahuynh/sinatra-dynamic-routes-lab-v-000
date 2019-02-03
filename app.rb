@@ -19,4 +19,6 @@ class App < Sinatra::Base
     @number.times  {phrase << @phrase + "\n"}
     phrase
   end
+  
+  get '/say/:word1/'
 end
